@@ -1,0 +1,176 @@
+# answers.js
+
+// setting and swapping
+var myNumber = 42;
+var myName = Andrew;
+
+//print -52 to 1066
+for ( var i = -52; i < 1066; i++) {
+  console.log(i);
+  }
+  
+// dont worry, be happy
+function beCheerful(num) {
+  for(var i = 0; i < num; i++) {
+    console.log("good morning!");
+   }
+  }
+beCheerful(98);
+
+// multiple of three
+for(var i = 3; i>= -300; i--) {
+ (i == -3) break; 
+  (i == -6) break;
+  }
+  console.log(i);
+  
+  //printing integers with While
+  let i = 2000;
+  while (i <=5200) {
+    console.log(i);
+    i++;
+    }
+    
+    //you saay its your birthday
+ 
+ //Leap Year
+ function year(num) {
+  if(num % 400 == 0) {
+    return true;
+   } else if (num % 100 == 0) {
+    return false;
+    
+ // print and count
+ var x = 0;
+ for(var i = num1; i <= num 2; i++) {
+  if (i % 5 == 0) {
+  console.log(i);
+  x++;
+  }
+  }
+  
+  //Multiples of six
+  var x = 6;
+  while (x <= 60000) {
+    console.log(x);
+    x += 6;
+  }
+  
+  //counting the dojo way
+  for(var x = 1; x <= 100; x++) {
+  if (x % 5 == 0) {
+    console.log("Coding");
+    } else if (x % 5 == 0) {
+      console.log("Dojo");
+      } else {
+        console.log(x);
+       }
+      }
+      
+ // what do you know
+Your function will be given an input parameter
+incoming. Please console.log this value.
+
+// whoa, that suckers huge
+var sum = 0
+for( var i = -300000; i <= 300000; i++) {
+  if ( i % 2 != 0) {
+    sum += i;
+    }
+    }
+    console.log(sum);
+
+// countdown by fours
+ Your function will be given an input parameter
+incoming. Please console.log this value.  
+var x = 2016;
+while ( x > 0) {
+  if (x % 4 == 0) {
+    console.log(x);
+    }
+    x--;
+    }
+    
+ // Flexible Countdown
+Based on earlier “Countdown by Fours”, given
+lowNum, highNum, mult, print multiples of mult
+from highNum down to lowNum, using a FOR.
+For (2,9,3), print 9 6 3 (on successive lines).
+
+function   flex(lowNun, highNum, mult) {
+  var x = high;
+  while (m > low) {
+    if (m % mult == 0) {
+      console.log(m);
+      }
+      m--;
+      }
+flex(2,9,3);
+
+//The fnal countdown
+function finalCount(param1, param2, param3, param4) {
+  var x = param3;
+  while (m > param2) {
+    if (m == param4) {
+      continue; 
+      } else if (m % param1 == 0) {
+        console.log(m);
+       }
+       m--;
+       }
+       }
+       finalCount(3,4,17,9);
+       
+ //countdown
+ function countDown(num) {
+  var arr = [];
+  for( var i = num; i >= 0; i--) {
+    arr.push(i);
+    }
+    console.log(arr);
+    
+    
+    // print and return
+    
+    function x(arr) {
+      window.print(arr[0]));
+      return arr[1];
+      }
+    
+    
+    //first plus length
+    
+    function x(arr) {
+      return arr[0] + arr.length;
+    }
+    
+    //values greater than second
+    
+  //thiss length, that value
+  function x(num1, num2) {
+    var arr = [];
+    if (num1 == num2) {
+      console.log("Jinx!");
+      } else {
+      
+      
+ // fit the first value
+ function x(arr) {
+    if (arr[0] > arr.length) {
+        console.log("Too big!");
+    } else if (arr[0] < arr.length) {
+        console.log("Too small!");
+    } else {
+        console.log("Just right!");
+    }
+}
+       
+  //fahrenheit to celsius
+ function farToCel(deg) {
+    var celc = (deg - 32) * (5 / 9);
+    return deg + " degrees F equals " + celc.toFixed(2) + " degrees C";
+    
+    //Celsius to Fahrenheit
+    
+    
+    
